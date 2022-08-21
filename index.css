@@ -1,7 +1,53 @@
-.youtube-ss {
-  size: 10px;
+* {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(223, 223, 223);
 }
 
-p {
-  font-weight: bold;
+body {
+  background-color: rgb(32, 42, 64);
+}
+
+.youtube-ss {
+  width: 1300px;
+}
+
+.main-page {
+  margin: 250px;
+  margin-top: 150px;
+  text-align: center;
+  width: 600;
+}
+
+.about {
+  text-align: left;
+  width: 600;
+  font-size: 36px;
+}
+
+.f-name {
+  color: rgb(102, 155, 228);
+  font-weight: 600;
+  transition: color 0.25s;
+}
+
+.f-name:hover {
+  color: rgb(50, 111, 197);
+}
+
+.study {
+  color: rgb(83, 129, 193);
+  font-weight: 600;
+}
+
+.learn-more {
+  border-style: solid;
+  background-color: rgb(32, 42, 64);
+  text-align:justify;
+  font-size: 24px;
+  padding: 15px 35px;
+  color: rgb(145, 191, 255);
+}
+
+.learn-more:hover {
+  opacity: 0.7;
 }
