@@ -4,11 +4,11 @@
 }
 
 body {
-  background-color: rgb(32, 42, 64);
+  background-color: rgb(20, 24, 34);
 }
 
 .youtube-ss {
-  width: 1300px;
+  width: 1000px;
 }
 
 .main-page {
@@ -22,6 +22,18 @@ body {
   text-align: left;
   width: 600;
   font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 0px;
+
+}
+
+.about-bio {
+  text-align: left;
+  width: 600;
+  font-size: 18px;
+  color:rgb(186, 186, 186);
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .f-name {
@@ -39,15 +51,73 @@ body {
   font-weight: 600;
 }
 
+.study:hover {
+  color: rgb(50, 111, 197);  
+}
+
 .learn-more {
   border-style: solid;
-  background-color: rgb(32, 42, 64);
-  text-align:justify;
+  background-color: rgb(20, 24, 34);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 24px;
   padding: 15px 35px;
   color: rgb(145, 191, 255);
+  border-color: rgb(83, 129, 193);
+  margin-top: 50px;
+  border-radius: 6px;
+  transition: color 0.25s, border-color 0.25s;
 }
 
 .learn-more:hover {
-  opacity: 0.7;
+  border-color: rgb(50, 111, 197); 
+  color: rgb(50, 111, 197); 
+}
+
+.learn-more:active {
+  opacity: 0.85;
+}
+
+.proj-edu-inner-div {
+  margin-left: 100px;
+  width: 35%;
+  float: left;
+  padding: 20px;
+  margin-bottom: 40px;
+  border: 2px solid; 
+}
+
+.projects-head {
+  font-size: 36px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.projects-ul {
+  margin-bottom: 0px;
+}
+
+.projects-li {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.edu-p{
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.rec {
+  border-top: 20px;
+  display: block;
+}
+
+.rec-head {
+  margin-top: 200px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 250px;
+  text-align:start;
 }
